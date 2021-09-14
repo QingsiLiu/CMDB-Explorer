@@ -1,11 +1,11 @@
 package main
 
-import "github.com/go-kit/kit/metrics/prometheus"
+import "github.com/prometheus/client_golang/prometheus"
 
 func main() {
 	// counter
 	// guage
-	prometheus.NewGauge()
+	cpu := prometheus.NewGauge()
 	// historgram
 	// summary
 
